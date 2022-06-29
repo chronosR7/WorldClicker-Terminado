@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Ricardo.T.Santos">
+    <script src="script.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="particlesjs-config.json"></script>
+    
+    <title>ClickerWorld | Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+    <link href="reset.css" rel="stylesheet"/>
+
+  </head>
+  <body>
+
+    <header class="cabecalho">
+
+      <h1 class="titulo">Clicker World</h1>
+
+    </header>
+
+    <main>
+      
+      <div class="world2">
+        <img src="world.png" alt="world" id="theWorld" onclick="Clicked()"/>
+        <p id="worlds">0 World</p>
+      </div>
+
+    <div class="store">
+      <h2 id="storeTitle">World store:</h2>
+
+        <div class="items">
+
+          <a id="item" onclick="firstLevel()">
+
+            <div id="firstLevel" style="display: inline">0 planetas comprados !</div> 100 Worlds - Cursor (+1 clicks!)
+
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="rodape">
+          Todos os direitos reservados 2022 &copy
+      </p>
+  </footer>
+
+<!--Quem roubar o código, a mãe morre automaticamente...fica esperto uhhh-->
+</html>
+
+
